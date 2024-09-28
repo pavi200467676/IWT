@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(b.jpg); /* Set your background image here */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    background-color: #f5f5f5; /* Fallback color if image doesn't load */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+header h1 {
+    margin: 0 20px;
+    flex: 1;
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.search-container {
+    margin-top: 10px;
+    flex: 1;
+    text-align: right;
+}
+
+.search-container input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.product-grid, .doctor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product, .doctor {
+    
+    background: rgba(192, 192, 192, 0.8); /* Dark grey with transparency */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Fixed width for all boxes */
+    margin: 0 auto; /* Center the boxes */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.product:hover, .doctor:hover {
+     
+    background: rgba(64, 64, 64, 0.8);/* Light grey with transparency */
+}
+
+.product img, .doctor img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100px; /* Ensure max height */
+    object-fit: contain; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.doctor img {
+    max-width: 100%;
+    max-height: 100px; /* Ensure max height */
+    object-fit: contain; /* Maintain aspect ratio */
+    border-radius: 50%;
+}
+
+.product h4, .doctor h3 {
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #b38181;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product button:hover {
+    background-color: #644444
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

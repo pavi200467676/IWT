@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - EliteVital Pharmacy</title>
+    <link rel="stylesheet" href="cart.css">
+    <script defer src="cart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Your Cart</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="main.html">Medicines</a></li>
+                <li><a href="voice.html">Voice</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="cart">
+        <h2>Cart Items</h2>
+        <div id="cart-items"></div>
+        <div id="total-price">Total: $0.00</div>
+        <button id="checkout" onclick="checkout()">Checkout</button>
+    </section>
+</body>
+</html>

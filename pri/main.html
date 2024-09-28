@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Pharmacy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.png" alt="Pharmacy Logo">
+    </div>
+    <h1>EliteVital Pharmacy</h1>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="login.html">login</a>
+        
+        <a href="#cart">Cart</a>
+        <a href="#medicines">Medicines</a>
+        <a href="#doctors">Doctors</a>
+       
+        
+    </nav>
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search for medicines...">
+    </div>
+</header>
+
+<main>
+    <section id="medicines">
+        <h2>Medicines</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="cap.jpg" alt="Paracetamol Tablets">
+                <h4>Paracetamol Tablets</h4>
+                <button onclick="addToCart(1, 'Paracetamol Tablets', 10.00)">Add to Cart - $10.00</button>
+            </div>
+            <div class="product">
+                <img src="cap2.jpg" alt="Ibuprofen Capsules">
+                <h4>Ibuprofen Capsules</h4>
+                <button onclick="addToCart(2, 'Ibuprofen Capsules', 12.00)">Add to Cart - $12.00</button>
+            </div>
+            <div class="product">
+                <img src="asprin.jpg" alt="Aspirin Powder">
+                <h4>Aspirin Powder</h4>
+                <button onclick="addToCart(3, 'Aspirin Powder', 8.00)">Add to Cart - $8.00</button>
+            </div>
+            <div class="product">
+                <img src="syrup.jpg" alt="Cough Syrup">
+                <h4>Cough Syrup</h4>
+                <button onclick="addToCart(4, 'Cough Syrup', 14.00)">Add to Cart - $14.00</button>
+            </div>
+            <div class="product">
+                <img src="gel.jpg" alt="Antibiotic Ointment">
+                <h4>Antibiotic Ointment</h4>
+                <button onclick="addToCart(5, 'Antibiotic Ointment', 16.00)">Add to Cart - $16.00</button>
+            </div>
+            <div class="product">
+                <img src="cap4.jpg" alt="Vitamin C Tablets">
+                <h4>Vitamin C Tablets</h4>
+                <button onclick="addToCart(6, 'Vitamin C Tablets', 9.00)">Add to Cart - $9.00</button>
+            </div>
+            <div class="product">
+                <img src="spray1.jpg" alt="Allergy Relief Spray">
+                <h4>Allergy Relief Spray</h4>
+                <button onclick="addToCart(7, 'Allergy Relief Spray', 11.00)">Add to Cart - $11.00</button>
+            </div>
+            <div class="product">
+                <img src="gel2.jpg" alt="Pain Relief Gel">
+                <h4>Pain Relief Gel</h4>
+                <button onclick="addToCart(8, 'Pain Relief Gel', 13.00)">Add to Cart - $13.00</button>
+            </div>
+            <div class="product">
+                <img src="inhaler.jpg" alt="Digestive Enzyme Tablets">
+                <h4>Digestive Enzyme Tablets</h4>
+                <button onclick="addToCart(9, 'Digestive Enzyme Tablets', 15.00)">Add to Cart - $15.00</button>
+            </div>
+            <div class="product">
+                <img src="intaker.jpg" alt="Digestive Enzyme Tablets">
+                <h4>Digestive Enzyme Tablets</h4>
+                <button onclick="addToCart(9, 'Digestive Enzyme Tablets', 15.00)">Add to Cart - $15.00</button>
+            </div>
+            <div class="product">
+                <img src="oil.jpg" alt="Digestive Enzyme Tablets">
+                <h4>Digestive Enzyme Tablets</h4>
+                <button onclick="addToCart(9, 'Digestive Enzyme Tablets', 15.00)">Add to Cart - $15.00</button>
+            </div>
+            <div class="product">
+                <img src="vc.jpg" alt="Digestive Enzyme Tablets">
+                <h4>Digestive Enzyme Tablets</h4>
+                <button onclick="addToCart(9, 'Digestive Enzyme Tablets', 15.00)">Add to Cart - $15.00</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="doctors">
+        <h2>Doctors</h2>
+        <div class="doctor-grid">
+            <div class="doctor">
+                <img src="doct.jpg" alt="Dr. John Smith">
+                <h3>Dr. John Smith</h3>
+                <p>Cardiologist</p>
+            </div>
+            <div class="doctor">
+                <img src="d2.jpg" alt="Dr. Emily Johnson">
+                <h3>Dr. Emily Johnson</h3>
+                <p>Oncologist</p>
+            </div>
+            <div class="doctor">
+                <img src="d3.jpg" alt="Dr. Michael Brown">
+                <h3>Dr. Michael Brown</h3>
+                <p>Neurologist</p>
+            </div>
+            <div class="doctor">
+                <img src="d4.jpg" alt="Dr. Sarah Davis">
+                <h3>Dr. Sarah Davis</h3>
+                <p>Gynecologist</p>
+            </div>
+            <div class="doctor">
+                <img src="d5.jpg" alt="Dr. James Wilson">
+                <h3>Dr. James Wilson</h3>
+                <p>Dermatologist</p>
+            </div>
+            <div class="doctor">
+                <img src="d6.jpg" alt="Dr. Patricia Taylor">
+                <h3>Dr. Patricia Taylor</h3>
+                <p>Endocrinologist</p>
+            </div>
+            <div class="doctor">
+                <img src="d7.jpg" alt="Dr. Robert Anderson">
+                <h3>Dr. Robert Anderson</h3>
+                <p>Ophthalmologist</p>
+            </div>
+            <div class="doctor">
+                <img src="d9.jpg" alt="Dr. Linda Thomas">
+                <h3>Dr. Linda Thomas</h3>
+                <p>Radiologist</p>
+            </div>
+            <div class="doctor">
+                <img src="d8.jpg" alt="Dr. William Lee">
+                <h3>Dr. William Lee</h3>
+                <p>Psychologist</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>Cart</h2>
+        <div id="cart-items"></div>
+        <div id="total-price">Total: $0.00</div>
+        <button id="checkout" onclick="checkout()">Checkout</button>
+    </section>
+</main>
+
+<script src="scripts.js"></script>
+</body>
+</html>
